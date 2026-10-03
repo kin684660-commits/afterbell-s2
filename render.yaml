@@ -1,0 +1,26 @@
+# Deployment preparation only. Creating the paid service requires budget approval.
+services:
+  - type: web
+    name: afterbell-s2
+    runtime: docker
+    plan: starter
+    healthCheckPath: /api/config
+    disk:
+      name: research-data
+      mountPath: /app/data
+      sizeGB: 1
+    envVars:
+      - key: AFTERBELL_PUBLIC_DEMO
+        value: "1"
+      - key: AFTERBELL_DATABASE_PATH
+        value: /app/data/afterbell.sqlite
+      - key: AFTERBELL_SESSION_SECRET
+        generateValue: true
+      - key: AFTERBELL_MAX_DAILY_RESEARCH
+        value: "20"
+      - key: AFTERBELL_API_BASE
+        value: https://api.deepseek.com
+      - key: AFTERBELL_MODEL
+        value: deepseek-flash
+      - key: AFTERBELL_API_KEY
+        sync: false

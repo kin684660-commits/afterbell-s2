@@ -1,0 +1,1131 @@
+{
+  "id": "d3ba21f7-02f1-4a88-8691-d93951f97390",
+  "createdAt": "2026-10-03T17:37:23.299Z",
+  "status": "partial",
+  "input": {
+    "question": "核实 NVIDIA 最新业务公告，未来一周有哪些已有证据的影响、反证和等待条件？请结合实际原生股及 Bitget 永续行情，明确资料限制。",
+    "symbol": "NVDA",
+    "mode": "live",
+    "useModel": true,
+    "horizon": "one-week",
+    "riskPreference": "balanced",
+    "language": "zh"
+  },
+  "evidence": [
+    {
+      "id": "e-cecaa627e2",
+      "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+      "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI | NVIDIA Blog",
+      "text": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, ASUS, Dell, Gigabyte, HP and MSI — giving developers, researchers and AI enthusiasts a new configuration with DGX OS and the NVIDIA AI software stack ready to use from day one. The new SKU runs capable local agents on device — privately, without cloud dependency. And when workloads grow, two units can cluster together via NVIDIA Sync Cluster Assistant without any additional setup. A New Starting Point for Personal AI Supercomputing DGX Spark combines NVIDIA Grace Blackwell compute, unified memory, NVIDIA ConnectX-7 networking and an NVIDIA CUDA-accelerated AI software stack in one system. It’s a complete local AI platform for agents, inference, fine-tuning, data science and edge development. The compact, personal AI supercomputer provides a place to experiment with models and developers’ own data without turning to a cloud instance for every task. The new 64GB configuration, available exclusively from manufacturer partners, keeps the platform at an accessible price point while retaining the GB10 Grace Blackwell Superchip, DGX OS and full NVIDIA AI software stack — same as the 128GB model. It supports up to 100-billion-parameter models and the agentic applications built on them, fully on device. Two 64GB units clustered together don’t just double the memory. In NVIDIA’s Qwen 3.8 27B test, two clustered 64 GB systems delivered up to 1.7x performance compared with a single system, with room to keep scaling as workloads demand. DGX Spark ships ready for agent development from day one — NVIDIA Agent Toolkit, CUDA-X AI libraries, Nemotron open models, and popular runtimes like Ollama, vLLM, and PyTorch with CUDA are all supported out of the box. Developers can go from power-on to running models in minutes. Blender is among the first major creator application providers to support the platform, with a prebuilt, downloadable installer coming soon. Scale Up With NVIDIA Sync Cluster Assistant Developers can start with the memory their projects need today and build on a platform designed to seamlessly scale multi-node clusters for larger workloads as their pipelines grow. Every DGX Spark ships with a built-in NVIDIA ConnectX-7 NIC right out of the box. Plus, two units can connect directly with a QSFP cable, pooling their memory to 128GB and expanding model support to up to 200 billion parameters while delivering twice the memory bandwidth and up to 1.7x the performance. The NVIDIA Sync app configures this multi-node cluster seamlessly. The cluster assistant feature detects connected units, validates device configuration and configures the ConnectX-7 network, so developers can focus on their work rather than the infrastructure. Every node runs the same NVIDIA software stack, so nothing needs to be reconfigured when scaling from one unit to two. And coming at the end of the month, NVIDIA Sync Model Launcher makes running local AI as simple as clicking a few buttons. Developers can download and launch Qwen3.8 27B on a single DGX Spark system or a cluster, with NVIDIA Sync configuring the model to run across connected devices and making it accessible from users’ laptops. The launcher will also set up OpenCode to use the model, so developers can start coding in their browser. Developer Use Cases on DGX Spark The new DGX Spark 64GB configuration supports practical work from day one. With up to 100-billion-parameter models running entirely on device, developers and enthusiasts can start with a single system for models that fit within its memory, or connect multiple DGX Spark systems with NVIDIA Sync Cluster Assistant for workloads that need more memory and compute. Here are three workflow examples: Run an AI agent around the clock: Keep a coding or research agent running on DGX Spark, ready to review code, analyze documents or carry out multistep tasks. A cluster provides additional capacity for larger models, longer context windows or multiple agents working at once. Power AI apps on your everyday PC: Run a language- or image-generation model on DGX Spark while using an agent or creative application on laptops or desktops. DGX Spark handles the model inference, freeing PCs for other work. Scale when the work grows: When a single task outgrows one unit — running a larger model, a longer context window or concurrent agent requests — two DGX Spark 64GB systems connected over the 200 GbE fabric via NVIDIA Sync Cluster Assistant pool their memory to 128GB. The same workflow that ran on one unit scales to two without reconfiguring the software environment. Get Started With DGX Spark DGX Spark 64GB is available from Acer, ASUS, Dell, Gigabyte, HP and MSI on Friday, Oct. 23, starting at $4,999. To get started: Download a supported inference framework — llama.cpp, Ollama, vLLM or LM Studio. Download the recommended local model for the workflow. To scale to two units, connect them via their NVIDIA ConnectX-7 ports and launch NVIDIA Sync Cluster Assistant — it configures the network and routes workloads automatically. For agentic AI playbooks on DGX Spark, visit the NemoClaw, OpenClaw, Hermes Agent and OpenShell pages on build.nvidia.com. #ICYMI: More Updates From NVIDIA Local AI Explore playbooks on build.nvidia.com/spark for DGX Spark. The following playbooks are coming soon to 64GB devices: Serve LLMs With vLLM Run OpenClaw With a Local LLM Connect Multiple DGX Sparks for Distributed Workloads New Windows PCs powered by NVIDIA RTX Spark are coming this month from Acer, ASUS, Dell, HP, Lenovo, Microsoft and MSI. Sign up for the RTX Spark newsletter to receive future updates. Alibaba’s Qwen-Image-2.1 brings image generation and editing together in a lightweight, open-weight model. It runs locally on NVIDIA RTX GPUs, DGX Spark and DGX Station, giving creators more ways to create and refine images on their own hardware. Follow NVIDIA RTX Spark on X, Instagram, TikTok and Facebook — and stay informed by subscribing to the NVIDIA Local AI newsletter. Follow NVIDIA Workstation on LinkedIn and X. See notice regarding software product information.",
+      "publishedAt": "2026-10-02T13:00:39+00:00",
+      "retrievedAt": "2026-10-03T17:37:24.588Z",
+      "hash": "deb472c0f4faca8cc13aee733ece19193998e997e2f35f2ae4b48ab4a534b388",
+      "kind": "official",
+      "warnings": [
+        "Page fetched now; publication timestamp is not independently authenticated.",
+        "Feed inclusion does not establish materiality; check event relevance."
+      ]
+    },
+    {
+      "id": "e-5395303ce7",
+      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+      "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast | NVIDIA Blog",
+      "text": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, faster generation can shorten coding agents’ edit-test-debug cycles, reduce the time spent generating responses between tool calls and make interactive applications feel more responsive. A faster response matters most when it’s repeated across a workflow: an agent writes code, uses a tool, checks the result and decides what to do next. Ultrafast brings Astra’s capabilities into these time-sensitive loops. NVIDIA AI infrastructure helps OpenAI serve more useful model outputs when developers need it. “NVIDIA’s deep investment in tooling and documentation has enabled us to make our models exceptionally good at programming Blackwell and Rubin GPUs,” said Philippe Tillet, inference lead at OpenAI. “Astra can turn that knowledge into high-performance kernels that make NVIDIA hardware compelling across the full frontier of latency, throughput and cost. With Astra Ultrafast, that means faster model responses as agents write code, use tools and work through complex tasks.” Continually Improving Performance Performance gains don’t stop when a model is deployed. OpenAI is using its own models to help refine the inference software running on NVIDIA GPUs, taking advantage of the platform’s programmability to test and implement improvements. That ongoing work can make model responses faster and deployed infrastructure more productive over time. “Our work with NVIDIA is helping us make AI faster and more useful,” said Uday Ruddarraju, chief technology officer of compute at OpenAI. “We used our internal models to optimize inference on NVIDIA GPUs, and NVIDIA’s programmability helped us deliver the acceleration behind Astra Ultrafast.” A programmable NVIDIA platform allows developers and researchers to reuse infrastructure across training, inference and reinforcement learning as models evolve. That flexibility helps teams repurpose compute resources as demand changes, improving utilization and avoiding overprovision for each workload. Developers can use GPT-6 Astra Ultrafast through the API today. See the Ultrafast guide for access, pricing and implementation details.",
+      "publishedAt": "2026-10-01T23:44:13+00:00",
+      "retrievedAt": "2026-10-03T17:37:24.889Z",
+      "hash": "e71920aa96548b7a9c887289559ddc2f3e7173395ecb94b8724365d0dbd8053f",
+      "kind": "official",
+      "warnings": [
+        "Page fetched now; publication timestamp is not independently authenticated.",
+        "Feed inclusion does not establish materiality; check event relevance."
+      ]
+    },
+    {
+      "id": "e-5d4b355ec3",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
+      "title": "Federal Reserve Board - Federal Reserve Board announces approval of application by Fleur Capital CorporationLock",
+      "text": "October 02, 2026 Federal Reserve Board announces approval of application by Fleur Capital Corporation For release at 4:45 p.m. EDT Share The Federal Reserve Board on Friday announced its approval of the application by Fleur Capital Corporation to acquire Simmesport State Bank, both of Simmesport, Louisiana. For media inquiries, please email [email protected] or call (202) 452-2955. Order (PDF) Related Content Board Votes",
+      "publishedAt": "2026-10-02T20:45:00.000Z",
+      "retrievedAt": "2026-10-03T17:37:25.005Z",
+      "hash": "2737b87ca7ba47cc00b1ca585179f2f98d5d58135159d3ba40afe5f200fea41f",
+      "kind": "official",
+      "warnings": [
+        "Page fetched now; publication timestamp is not independently authenticated.",
+        "Feed inclusion does not establish materiality; check event relevance."
+      ]
+    },
+    {
+      "id": "e-8f9bf8f9d8",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
+      "title": "Federal Reserve Board - Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation OLock",
+      "text": "October 02, 2026 Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O For release at 4:00 p.m. EDT Share The Federal Reserve Board announced Friday that it will extend, until November 4, the comment period on its proposal to modernize Regulation O, its rule governing the extension of credit by a bank to its \"insiders\"—bank executives, board members and major shareholders who could potentially influence a bank's lending decisions. The Board extended the comment period to allow interested parties more time to analyze the issues and prepare their comments. Comments on the proposal were originally due by October 5. For media inquiries, please email [email protected] or call 202-452-2955. Federal Register notice: Loans to Executive Officers, Directors, and Principal Shareholders of Member Banks: Bank Holding Companies (PDF)",
+      "publishedAt": "2026-10-02T20:00:00.000Z",
+      "retrievedAt": "2026-10-03T17:37:25.100Z",
+      "hash": "1c872c31883beb92a3e2b8fb617db9af01ce1e955f7f167eec0c11639f5cde9d",
+      "kind": "official",
+      "warnings": [
+        "Page fetched now; publication timestamp is not independently authenticated.",
+        "Feed inclusion does not establish materiality; check event relevance."
+      ]
+    },
+    {
+      "id": "venue-instruments-NVDA",
+      "url": "https://api.bitget.com/api/v3/market/instruments?category=USDT-FUTURES&symbol=NVDAUSDT",
+      "title": "永续合约身份核验",
+      "text": "[\n  {\n    \"symbol\": \"NVDAUSDT\",\n    \"category\": \"USDT-FUTURES\",\n    \"baseCoin\": \"NVDA\",\n    \"quoteCoin\": \"USDT\",\n    \"symbolType\": \"stock\",\n    \"isRwa\": \"YES\",\n    \"buyLimitPriceRatio\": \"0.02\",\n    \"sellLimitPriceRatio\": \"0.02\",\n    \"feeRateUpRatio\": \"0.005\",\n    \"makerFeeRate\": \"0.0002\",\n    \"takerFeeRate\": \"0.0006\",\n    \"openCostUpRatio\": \"0.01\",\n    \"minOrderQty\": \"0.01\",\n    \"maxOrderQty\": \"52000\",\n    \"pricePrecision\": \"2\",\n    \"quantityPrecision\": \"2\",\n    \"quotePrecision\": \"\",\n    \"priceMultiplier\": \"0.01\",\n    \"quantityMultiplier\": \"0.01\",\n    \"type\": \"perpetual\",\n    \"minOrderAmount\": \"5\",\n    \"maxSymbolOrderNum\": \"\",\n    \"maxProductOrderNum\": \"400\",\n    \"maxPositionNum\": \"200\",\n    \"status\": \"online\",\n    \"offTime\": \"-1\",\n    \"limitOpenTime\": \"-1\",\n    \"deliveryTime\": \"\",\n    \"deliveryStartTime\": \"\",\n    \"deliveryPeriod\": \"\",\n    \"launchTime\": \"1769994062273\",\n    \"fundInterval\": \"8\",\n    \"minLeverage\": \"1\",\n    \"maxLeverage\": \"100\",\n    \"maintainTime\": \"\",\n    \"maxMarketOrderQty\": \"9500\"\n  }\n]",
+      "hash": "3e2a557b591152a48b796023e87c6a4e669fd7e59bbff20ed2270ea4654c61b9",
+      "kind": "market-data",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-03T17:37:24.010Z",
+      "warnings": [
+        "Actual read-only Bitget SDK response. Stock perpetual, not native equity or redeemable token.",
+        "Quote observation time and orderbook observation time are separate."
+      ]
+    },
+    {
+      "id": "venue-tickers-NVDA",
+      "url": "https://api.bitget.com/api/v3/market/tickers?category=USDT-FUTURES&symbol=NVDAUSDT",
+      "title": "永续合约报价与点差",
+      "text": "[\n  {\n    \"category\": \"USDT-FUTURES\",\n    \"symbol\": \"NVDAUSDT\",\n    \"ts\": \"1791049043714\",\n    \"lastPrice\": \"234.72\",\n    \"openPrice24h\": \"234.56\",\n    \"highPrice24h\": \"235.02\",\n    \"lowPrice24h\": \"233.9\",\n    \"ask1Price\": \"234.72\",\n    \"bid1Price\": \"234.71\",\n    \"bid1Size\": \"127.77\",\n    \"ask1Size\": \"4.43\",\n    \"price24hPcnt\": \"0.00068\",\n    \"volume24h\": \"12798.48\",\n    \"turnover24h\": \"3000394.0528\",\n    \"indexPrice\": \"234.7082172227186183\",\n    \"markPrice\": \"234.72\",\n    \"fundingRate\": \"0\",\n    \"openInterest\": \"46814.89999999956\",\n    \"deliveryStartTime\": \"\",\n    \"deliveryTime\": \"\",\n    \"deliveryStatus\": \"\"\n  }\n]",
+      "hash": "4931e6a1547d1a433250176aaa8a0a49fb7640402173c25af415b3fb3979edd0",
+      "kind": "market-data",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-03T17:37:24.211Z",
+      "warnings": [
+        "Actual read-only Bitget SDK response. Stock perpetual, not native equity or redeemable token.",
+        "Quote observation time and orderbook observation time are separate."
+      ]
+    },
+    {
+      "id": "venue-orderbook-NVDA",
+      "url": "https://api.bitget.com/api/v3/market/orderbook?category=USDT-FUTURES&symbol=NVDAUSDT&limit=5",
+      "title": "永续合约前五档盘口",
+      "text": "{\n  \"a\": [\n    [\n      234.72,\n      4.43\n    ],\n    [\n      234.73,\n      5.69\n    ],\n    [\n      234.74,\n      10.69\n    ],\n    [\n      234.75,\n      13.6\n    ],\n    [\n      234.76,\n      13.97\n    ]\n  ],\n  \"b\": [\n    [\n      234.71,\n      4.93\n    ],\n    [\n      234.7,\n      6.62\n    ],\n    [\n      234.69,\n      15.01\n    ],\n    [\n      234.68,\n      7.08\n    ],\n    [\n      234.67,\n      19.03\n    ]\n  ],\n  \"ts\": \"1791049044220\"\n}",
+      "hash": "c9356eacd17f1da6fc00cce5759c7b2413956f796191229e9aebaae309a5f76f",
+      "kind": "market-data",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-03T17:37:24.282Z",
+      "warnings": [
+        "Actual read-only Bitget SDK response. Stock perpetual, not native equity or redeemable token.",
+        "Quote observation time and orderbook observation time are separate."
+      ]
+    },
+    {
+      "id": "venue-candles-NVDA",
+      "url": "https://api.bitget.com/api/v3/market/candles?category=USDT-FUTURES&symbol=NVDAUSDT&interval=1H&limit=48",
+      "title": "永续合约近48小时价格",
+      "text": "[\n  [\n    \"1790877600000\",\n    \"230.78\",\n    \"232.59\",\n    \"230.45\",\n    \"232.55\",\n    \"4814.36\",\n    \"1115679.919\"\n  ],\n  [\n    \"1790881200000\",\n    \"232.55\",\n    \"232.55\",\n    \"230.99\",\n    \"231.32\",\n    \"8708.71\",\n    \"2021283.4539\"\n  ],\n  [\n    \"1790884800000\",\n    \"231.32\",\n    \"231.67\",\n    \"231\",\n    \"231.42\",\n    \"1816.94\",\n    \"420322.7058\"\n  ],\n  [\n    \"1790888400000\",\n    \"231.42\",\n    \"231.68\",\n    \"231.32\",\n    \"231.36\",\n    \"1869.33\",\n    \"432677.5069\"\n  ],\n  [\n    \"1790892000000\",\n    \"231.36\",\n    \"231.73\",\n    \"231.35\",\n    \"231.72\",\n    \"431.34\",\n    \"99865.2307\"\n  ],\n  [\n    \"1790895600000\",\n    \"231.72\",\n    \"231.89\",\n    \"231.53\",\n    \"231.68\",\n    \"473.71\",\n    \"109754.7339\"\n  ],\n  [\n    \"1790899200000\",\n    \"231.68\",\n    \"232.59\",\n    \"231.54\",\n    \"231.91\",\n    \"5028.1\",\n    \"1167159.5745\"\n  ],\n  [\n    \"1790902800000\",\n    \"231.91\",\n    \"232.04\",\n    \"231.49\",\n    \"231.95\",\n    \"943.24\",\n    \"218611.6847\"\n  ],\n  [\n    \"1790906400000\",\n    \"231.95\",\n    \"232.1\",\n    \"231.8\",\n    \"232.1\",\n    \"722.6\",\n    \"167596.2417\"\n  ],\n  [\n    \"1790910000000\",\n    \"232.1\",\n    \"232.15\",\n    \"231.77\",\n    \"232.02\",\n    \"684.67\",\n    \"158798.4835\"\n  ],\n  [\n    \"1790913600000\",\n    \"232.02\",\n    \"232.35\",\n    \"231.58\",\n    \"232.35\",\n    \"1515.14\",\n    \"351407.7574\"\n  ],\n  [\n    \"1790917200000\",\n    \"232.35\",\n    \"232.4\",\n    \"231.86\",\n    \"232.17\",\n    \"2356.74\",\n    \"547337.0256\"\n  ],\n  [\n    \"1790920800000\",\n    \"232.17\",\n    \"232.48\",\n    \"231.85\",\n    \"231.97\",\n    \"1908.72\",\n    \"443050.6363\"\n  ],\n  [\n    \"1790924400000\",\n    \"231.97\",\n    \"232.58\",\n    \"231.92\",\n    \"232.56\",\n    \"3206.06\",\n    \"744470.7396\"\n  ],\n  [\n    \"1790928000000\",\n    \"232.56\",\n    \"233.68\",\n    \"232.43\",\n    \"233.42\",\n    \"12577.43\",\n    \"2928739.7227\"\n  ],\n  [\n    \"1790931600000\",\n    \"233.42\",\n    \"234\",\n    \"233.18\",\n    \"233.94\",\n    \"8648.15\",\n    \"2020287.4302\"\n  ],\n  [\n    \"1790935200000\",\n    \"233.94\",\n    \"234.11\",\n    \"233.46\",\n    \"233.88\",\n    \"2983.19\",\n    \"697549.1826\"\n  ],\n  [\n    \"1790938800000\",\n    \"233.88\",\n    \"235.69\",\n    \"233.71\",\n    \"235.08\",\n    \"8226.04\",\n    \"1931766.0596\"\n  ],\n  [\n    \"1790942400000\",\n    \"235.08\",\n    \"236.41\",\n    \"234.83\",\n    \"236.04\",\n    \"8401.5\",\n    \"1981142.099\"\n  ],\n  [\n    \"1790946000000\",\n    \"236.04\",\n    \"237.82\",\n    \"234.8\",\n    \"237.56\",\n    \"22314.48\",\n    \"5278905.7116\"\n  ],\n  [\n    \"1790949600000\",\n    \"237.56\",\n    \"238\",\n    \"236.41\",\n    \"236.77\",\n    \"8280.15\",\n    \"1964878.8261\"\n  ],\n  [\n    \"1790953200000\",\n    \"236.77\",\n    \"236.93\",\n    \"234.47\",\n    \"235.71\",\n    \"6433.22\",\n    \"1514613.0521\"\n  ],\n  [\n    \"1790956800000\",\n    \"235.71\",\n    \"236.74\",\n    \"235.18\",\n    \"235.3\",\n    \"3682.96\",\n    \"869192.2962\"\n  ],\n  [\n    \"1790960400000\",\n    \"235.3\",\n    \"235.59\",\n    \"234.34\",\n    \"234.82\",\n    \"3179.97\",\n    \"747053.9312\"\n  ],\n  [\n    \"1790964000000\",\n    \"234.82\",\n    \"234.99\",\n    \"234.52\",\n    \"234.77\",\n    \"1162.96\",\n    \"272959.2532\"\n  ],\n  [\n    \"1790967600000\",\n    \"234.77\",\n    \"234.82\",\n    \"233.9\",\n    \"234.23\",\n    \"3404.47\",\n    \"797958.5557\"\n  ],\n  [\n    \"1790971200000\",\n    \"234.23\",\n    \"234.39\",\n    \"233.93\",\n    \"234.15\",\n    \"2415.51\",\n    \"565586.6744\"\n  ],\n  [\n    \"1790974800000\",\n    \"234.15\",\n    \"234.25\",\n    \"234\",\n    \"234.08\",\n    \"648.76\",\n    \"151884.75\"\n  ],\n  [\n    \"1790978400000\",\n    \"234.08\",\n    \"234.19\",\n    \"234.03\",\n    \"234.17\",\n    \"197.68\",\n    \"46280.7087\"\n  ],\n  [\n    \"1790982000000\",\n    \"234.17\",\n    \"234.51\",\n    \"234.17\",\n    \"234.42\",\n    \"272.11\",\n    \"63760.4751\"\n  ],\n  [\n    \"1790985600000\",\n    \"234.42\",\n    \"234.59\",\n    \"234.4\",\n    \"234.45\",\n    \"206.06\",\n    \"48326.157\"\n  ],\n  [\n    \"1790989200000\",\n    \"234.45\",\n    \"234.69\",\n    \"234.44\",\n    \"234.63\",\n    \"202.74\",\n    \"47561.5357\"\n  ],\n  [\n    \"1790992800000\",\n    \"234.63\",\n    \"234.63\",\n    \"234.46\",\n    \"234.46\",\n    \"230.49\",\n    \"54061.4646\"\n  ],\n  [\n    \"1790996400000\",\n    \"234.46\",\n    \"234.53\",\n    \"234.46\",\n    \"234.48\",\n    \"75.56\",\n    \"17717.971\"\n  ],\n  [\n    \"1791000000000\",\n    \"234.48\",\n    \"234.49\",\n    \"234.35\",\n    \"234.45\",\n    \"129.65\",\n    \"30393.5647\"\n  ],\n  [\n    \"1791003600000\",\n    \"234.45\",\n    \"234.45\",\n    \"234.4\",\n    \"234.43\",\n    \"81.93\",\n    \"19206.0203\"\n  ],\n  [\n    \"1791007200000\",\n    \"234.43\",\n    \"234.52\",\n    \"234.37\",\n    \"234.45\",\n    \"304.88\",\n    \"71474.627\"\n  ],\n  [\n    \"1791010800000\",\n    \"234.45\",\n    \"234.66\",\n    \"234.45\",\n    \"234.6\",\n    \"182.62\",\n    \"42831.1804\"\n  ],\n  [\n    \"1791014400000\",\n    \"234.6\",\n    \"234.66\",\n    \"234.46\",\n    \"234.64\",\n    \"213.3\",\n    \"50037.914\"\n  ],\n  [\n    \"1791018000000\",\n    \"234.64\",\n    \"235.01\",\n    \"234.63\",\n    \"234.68\",\n    \"302.82\",\n    \"71122.7031\"\n  ],\n  [\n    \"1791021600000\",\n    \"234.68\",\n    \"234.76\",\n    \"234.49\",\n    \"234.63\",\n    \"244.17\",\n    \"57285.7576\"\n  ],\n  [\n    \"1791025200000\",\n    \"234.63\",\n    \"234.69\",\n    \"234.54\",\n    \"234.56\",\n    \"201.12\",\n    \"47185.4165\"\n  ],\n  [\n    \"1791028800000\",\n    \"234.56\",\n    \"234.7\",\n    \"234.45\",\n    \"234.46\",\n    \"292.94\",\n    \"68698.7951\"\n  ],\n  [\n    \"1791032400000\",\n    \"234.46\",\n    \"234.61\",\n    \"234.41\",\n    \"234.55\",\n    \"186.99\",\n    \"43845.2046\"\n  ],\n  [\n    \"1791036000000\",\n    \"234.55\",\n    \"234.75\",\n    \"234.51\",\n    \"234.72\",\n    \"202.73\",\n    \"47567.6931\"\n  ],\n  [\n    \"1791039600000\",\n    \"234.72\",\n    \"234.78\",\n    \"234.5\",\n    \"234.73\",\n    \"992.2\",\n    \"232806.6891\"\n  ],\n  [\n    \"1791043200000\",\n    \"234.73\",\n    \"234.75\",\n    \"234.64\",\n    \"234.68\",\n    \"158.28\",\n    \"37152.1283\"\n  ],\n  [\n    \"1791046800000\",\n    \"234.68\",\n    \"234.8\",\n    \"234.67\",\n    \"234.72\",\n    \"83.71\",\n    \"19649.4943\"\n  ]\n]",
+      "hash": "ec23cddc83cc1607053b6b7564df9422a8720934fe539755a90a623323ffb295",
+      "kind": "market-data",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-03T17:37:24.289Z",
+      "warnings": [
+        "Actual read-only Bitget SDK response. Stock perpetual, not native equity or redeemable token.",
+        "Quote observation time and orderbook observation time are separate."
+      ]
+    },
+    {
+      "id": "native-NVDA",
+      "url": "https://api.nasdaq.com/api/quote/NVDA/info?assetclass=stocks",
+      "title": "NVDA · Nasdaq 原生美股日期级快照",
+      "text": "{\n  \"symbol\": \"NVDA\",\n  \"name\": \"NVIDIA Corporation Common Stock\",\n  \"exchange\": \"NASDAQ-GS\",\n  \"currency\": \"USD\",\n  \"instrumentType\": \"EQUITY\",\n  \"price\": 233.95,\n  \"observedAt\": \"2026-10-01\",\n  \"retrievedAt\": \"2026-10-03T17:37:24.083Z\",\n  \"freshness\": \"date-only / execution-unverified\",\n  \"session\": \"weekend\",\n  \"delay\": \"unknown\",\n  \"dayHigh\": null,\n  \"dayLow\": null,\n  \"previousClose\": null,\n  \"volume\": 135169179,\n  \"candles\": [],\n  \"warnings\": [\n    \"Yahoo unavailable: Native price HTTP 429; actual Nasdaq fallback used.\",\n    \"Actual Nasdaq native stock quote. Provider timestamp: Oct 1, 2026. Only its calendar date is retained; no intraday timestamp is invented.\",\n    \"Date-only delayed observation; executable price, bid/ask and 5-day candles are unavailable. Not a real-time quote or synchronized cross-market price.\",\n    \"Public endpoint SLA and redistribution entitlement are unverified; do not infer arbitrage.\"\n  ]\n}",
+      "kind": "market-data",
+      "publishedAt": "2026-10-01",
+      "retrievedAt": "2026-10-03T17:37:24.083Z",
+      "hash": "f92dac04b8e90b6c46a5be0fbc64faa4ad42036a927a5651d8943b668d07f016",
+      "warnings": [
+        "Yahoo unavailable: Native price HTTP 429; actual Nasdaq fallback used.",
+        "Actual Nasdaq native stock quote. Provider timestamp: Oct 1, 2026. Only its calendar date is retained; no intraday timestamp is invented.",
+        "Date-only delayed observation; executable price, bid/ask and 5-day candles are unavailable. Not a real-time quote or synchronized cross-market price.",
+        "Public endpoint SLA and redistribution entitlement are unverified; do not infer arbitrage."
+      ]
+    },
+    {
+      "id": "fund-nasdaq-profile-NVDA",
+      "url": "https://api.nasdaq.com/api/company/NVDA/company-profile",
+      "title": "Nasdaq 公司与行业资料",
+      "text": "{\"symbol\":\"NVDA\",\"companyName\":\"NVIDIA Corporation\",\"industry\":\"Semiconductors\",\"sector\":\"Technology\"}",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-03T17:37:23.355Z",
+      "hash": "2db301cba45a30b2e73e7b3c02c9e5c43c5a45a54de5ff7ce1d5aa32500aac98",
+      "kind": "market-data",
+      "warnings": [
+        "SEC facts are GAAP historical disclosures, not a real-time earnings release. Fiscal periods use start/end dates; filing fiscal-year metadata is not assumed to be the period year.",
+        "Nasdaq consensus is a provider forecast snapshot. Estimate-update time and accounting basis are unverified; never compare GAAP EPS with these estimates to claim beat/miss. No revenue consensus was retrieved.",
+        "These public endpoints have no verified production SLA or redistribution license. Successful responses are cached for one hour; retrievedAt is application retrieval time, not provider update time."
+      ]
+    },
+    {
+      "id": "fund-nasdaq-consensus-NVDA",
+      "url": "https://api.nasdaq.com/api/analyst/NVDA/earnings-forecast",
+      "title": "Nasdaq 盈利一致预期",
+      "text": "{\"symbol\":\"NVDA\",\"estimateUpdatedAt\":null,\"epsBasis\":\"unverified\",\"epsCurrency\":\"USD per share\"}\n{\"symbol\":\"NVDA\",\"estimateUpdatedAt\":null,\"epsBasis\":\"unverified\",\"epsCurrency\":\"USD per share\",\"fiscalEnd\":\"Oct 2026\",\"period\":\"quarter\",\"eps\":2.47,\"high\":2.7,\"low\":2.34,\"analysts\":13}\n{\"symbol\":\"NVDA\",\"estimateUpdatedAt\":null,\"epsBasis\":\"unverified\",\"epsCurrency\":\"USD per share\",\"fiscalEnd\":\"Jan 2027\",\"period\":\"quarter\",\"eps\":2.71,\"high\":2.94,\"low\":2.53,\"analysts\":12}\n{\"symbol\":\"NVDA\",\"estimateUpdatedAt\":null,\"epsBasis\":\"unverified\",\"epsCurrency\":\"USD per share\",\"fiscalEnd\":\"Apr 2027\",\"period\":\"quarter\",\"eps\":3.15,\"high\":3.53,\"low\":2.9,\"analysts\":11}\n{\"symbol\":\"NVDA\",\"estimateUpdatedAt\":null,\"epsBasis\":\"unverified\",\"epsCurrency\":\"USD per share\",\"fiscalEnd\":\"Jul 2027\",\"period\":\"quarter\",\"eps\":3.58,\"high\":3.94,\"low\":3.23,\"analysts\":11}\n{\"symbol\":\"NVDA\",\"estimateUpdatedAt\":null,\"epsBasis\":\"unverified\",\"epsCurrency\":\"USD per share\",\"fiscalEnd\":\"Jan 2027\",\"period\":\"annual\",\"eps\":9.25,\"high\":9.71,\"low\":9.01,\"analysts\":17}\n{\"symbol\":\"NVDA\",\"estimateUpdatedAt\":null,\"epsBasis\":\"unverified\",\"epsCurrency\":\"USD per share\",\"fiscalEnd\":\"Jan 2028\",\"period\":\"annual\",\"eps\":15.53,\"high\":17.04,\"low\":13.45,\"analysts\":15}",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-03T17:37:23.355Z",
+      "hash": "9f11732353ec1478cfc661abc2833d7646c745652512991b455a408f68aa21da",
+      "kind": "market-data",
+      "warnings": [
+        "SEC facts are GAAP historical disclosures, not a real-time earnings release. Fiscal periods use start/end dates; filing fiscal-year metadata is not assumed to be the period year.",
+        "Nasdaq consensus is a provider forecast snapshot. Estimate-update time and accounting basis are unverified; never compare GAAP EPS with these estimates to claim beat/miss. No revenue consensus was retrieved.",
+        "These public endpoints have no verified production SLA or redistribution license. Successful responses are cached for one hour; retrievedAt is application retrieval time, not provider update time."
+      ]
+    },
+    {
+      "id": "fund-sec-companyfacts-NVDA",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+      "title": "SEC 已披露财务数据",
+      "text": "{\"symbol\":\"NVDA\",\"entity\":\"NVIDIA CORP\",\"basis\":\"US GAAP\"}\n{\"symbol\":\"NVDA\",\"entity\":\"NVIDIA CORP\",\"basis\":\"US GAAP\",\"metric\":\"revenue\",\"tag\":\"Revenues\",\"unit\":\"USD\",\"value\":96221000000,\"start\":\"2026-04-27\",\"end\":\"2026-07-26\",\"filed\":\"2026-08-26\",\"accession\":\"0001045810-26-000075\",\"form\":\"10-Q\",\"period\":\"quarter\",\"filingUrl\":\"https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/\"}\n{\"symbol\":\"NVDA\",\"entity\":\"NVIDIA CORP\",\"basis\":\"US GAAP\",\"metric\":\"revenue\",\"tag\":\"Revenues\",\"unit\":\"USD\",\"value\":81615000000,\"start\":\"2026-01-26\",\"end\":\"2026-04-26\",\"filed\":\"2026-05-20\",\"accession\":\"0001045810-26-000052\",\"form\":\"10-Q\",\"period\":\"quarter\",\"filingUrl\":\"https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/\"}\n{\"symbol\":\"NVDA\",\"entity\":\"NVIDIA CORP\",\"basis\":\"US GAAP\",\"metric\":\"revenue\",\"tag\":\"Revenues\",\"unit\":\"USD\",\"value\":215938000000,\"start\":\"2025-01-27\",\"end\":\"2026-01-25\",\"filed\":\"2026-02-25\",\"accession\":\"0001045810-26-000021\",\"form\":\"10-K\",\"period\":\"annual\",\"filingUrl\":\"https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/\"}\n{\"symbol\":\"NVDA\",\"entity\":\"NVIDIA CORP\",\"basis\":\"US GAAP\",\"metric\":\"netIncome\",\"tag\":\"NetIncomeLoss\",\"unit\":\"USD\",\"value\":59688000000,\"start\":\"2026-04-27\",\"end\":\"2026-07-26\",\"filed\":\"2026-08-26\",\"accession\":\"0001045810-26-000075\",\"form\":\"10-Q\",\"period\":\"quarter\",\"filingUrl\":\"https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/\"}\n{\"symbol\":\"NVDA\",\"entity\":\"NVIDIA CORP\",\"basis\":\"US GAAP\",\"metric\":\"netIncome\",\"tag\":\"NetIncomeLoss\",\"unit\":\"USD\",\"value\":58321000000,\"start\":\"2026-01-26\",\"end\":\"2026-04-26\",\"filed\":\"2026-05-20\",\"accession\":\"0001045810-26-000052\",\"form\":\"10-Q\",\"period\":\"quarter\",\"filingUrl\":\"https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/\"}\n{\"symbol\":\"NVDA\",\"entity\":\"NVIDIA CORP\",\"basis\":\"US GAAP\",\"metric\":\"netIncome\",\"tag\":\"NetIncomeLoss\",\"unit\":\"USD\",\"value\":120067000000,\"start\":\"2025-01-27\",\"end\":\"2026-01-25\",\"filed\":\"2026-02-25\",\"accession\":\"0001045810-26-000021\",\"form\":\"10-K\",\"period\":\"annual\",\"filingUrl\":\"https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/\"}\n{\"symbol\":\"NVDA\",\"entity\":\"NVIDIA CORP\",\"basis\":\"US GAAP\",\"metric\":\"dilutedEPS\",\"tag\":\"EarningsPerShareDiluted\",\"unit\":\"USD/shares\",\"value\":2.46,\"start\":\"2026-04-27\",\"end\":\"2026-07-26\",\"filed\":\"2026-08-26\",\"accession\":\"0001045810-26-000075\",\"form\":\"10-Q\",\"period\":\"quarter\",\"filingUrl\":\"https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/\"}\n{\"symbol\":\"NVDA\",\"entity\":\"NVIDIA CORP\",\"basis\":\"US GAAP\",\"metric\":\"dilutedEPS\",\"tag\":\"EarningsPerShareDiluted\",\"unit\":\"USD/shares\",\"value\":2.39,\"start\":\"2026-01-26\",\"end\":\"2026-04-26\",\"filed\":\"2026-05-20\",\"accession\":\"0001045810-26-000052\",\"form\":\"10-Q\",\"period\":\"quarter\",\"filingUrl\":\"https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/\"}\n{\"symbol\":\"NVDA\",\"entity\":\"NVIDIA CORP\",\"basis\":\"US GAAP\",\"metric\":\"dilutedEPS\",\"tag\":\"EarningsPerShareDiluted\",\"unit\":\"USD/shares\",\"value\":4.9,\"start\":\"2025-01-27\",\"end\":\"2026-01-25\",\"filed\":\"2026-02-25\",\"accession\":\"0001045810-26-000021\",\"form\":\"10-K\",\"period\":\"annual\",\"filingUrl\":\"https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/\"}\n{\"symbol\":\"NVDA\",\"entity\":\"NVIDIA CORP\",\"basis\":\"US GAAP\",\"metric\":\"assets\",\"tag\":\"Assets\",\"unit\":\"USD\",\"value\":320272000000,\"start\":null,\"end\":\"2026-07-26\",\"filed\":\"2026-08-26\",\"accession\":\"0001045810-26-000075\",\"form\":\"10-Q\",\"period\":\"instant\",\"filingUrl\":\"https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/\"}\n{\"symbol\":\"NVDA\",\"entity\":\"NVIDIA CORP\",\"basis\":\"US GAAP\",\"metric\":\"equity\",\"tag\":\"StockholdersEquity\",\"unit\":\"USD\",\"value\":228984000000,\"start\":null,\"end\":\"2026-07-26\",\"filed\":\"2026-08-26\",\"accession\":\"0001045810-26-000075\",\"form\":\"10-Q\",\"period\":\"instant\",\"filingUrl\":\"https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/\"}",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-03T17:37:23.355Z",
+      "hash": "0d20b6f8af03998f199293dd52c656901fa8b9d21885980189c80a7fcdeef24e",
+      "kind": "official",
+      "warnings": [
+        "SEC facts are GAAP historical disclosures, not a real-time earnings release. Fiscal periods use start/end dates; filing fiscal-year metadata is not assumed to be the period year.",
+        "Nasdaq consensus is a provider forecast snapshot. Estimate-update time and accounting basis are unverified; never compare GAAP EPS with these estimates to claim beat/miss. No revenue consensus was retrieved.",
+        "These public endpoints have no verified production SLA or redistribution license. Successful responses are cached for one hour; retrievedAt is application retrieval time, not provider update time."
+      ]
+    },
+    {
+      "id": "macro-treasury",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
+      "title": "美国财政部日收益率",
+      "text": "{\"provider\":\"US Treasury\",\"unit\":\"percent per annum\",\"observedDate\":\"2026-10-02\",\"rates\":{\"3M\":4.19,\"2Y\":4.83,\"10Y\":5.28,\"30Y\":5.63},\"previous\":{\"date\":\"2026-10-01\",\"rates\":{\"3M\":4.17,\"2Y\":4.78,\"10Y\":5.24,\"30Y\":5.61}}}",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-03T17:37:23.383Z",
+      "hash": "405255994c21dec3cbc1caf5432384626aa5c507e619a3662b9366aef334cb0e",
+      "kind": "official",
+      "warnings": [
+        "Daily par yield estimates, not live executable bond prices or the Federal Reserve policy rate. Observation date differs from retrieval time; no causal attribution to company news."
+      ]
+    }
+  ],
+  "market": {
+    "provider": "Bitget MCP",
+    "retrievedAt": "2026-10-03T17:37:24.592Z",
+    "status": "unavailable",
+    "raw": null,
+    "warnings": [
+      "Market provider unavailable or quote schema unsupported. No price or token mapping inferred."
+    ],
+    "session": "weekend"
+  },
+  "analysis": {
+    "summary": "截至2026-10-03，NVIDIA官方博客披露两项产品进展：DGX Spark 64GB将于10月23日上市（起价4,999美元），以及OpenAI GPT-6 Astra Ultrafast在Blackwell GPU上运行。这些是产品公告，非财务披露，无法证明收入或需求。原生美股仅有10月1日日期级快照233.95美元，Bitget NVDAUSDT永续最新价234.72、资金费率0，但两者时间不同步，不可计算溢价或套利。SEC最新为2026-04-27至07-26季度营收962.21亿美元（GAAP），与Nasdaq一致预期口径不可比。未来一周缺乏可验证的财报或需求数据，结论为等待。",
+    "impactChain": [
+      {
+        "text": "NVIDIA宣布DGX Spark 64GB于10月23日上市，起价4,999美元。",
+        "evidenceIds": [
+          "e-cecaa627e2"
+        ],
+        "quote": "that ran on one unit scales to two without reconfiguring the software environment. Get Started With DGX Spark DGX Spark 64GB is available from Acer, ASUS, Dell, Gigabyte, HP and MSI on Friday, Oct. 23, starting at $4,999. To get started: Download a supported inference framework — llama.cpp, Ollama, vLLM or LM Studio. Download the recommended local model for the workflow. To scale to two units, connect them via their NVIDIA ConnectX-7 ports and launch NVIDIA Sync Cluster",
+        "businessEffect": "扩展本地AI硬件产品线，可能带动开发者与边缘推理需求。",
+        "assetEffect": "对NVDA收入与股价的实质影响取决于实际销量，公告本身不构成财务证据。",
+        "uncertainty": "无销量、订单或收入指引披露。",
+        "test": "观察后续是否出现官方出货量、合作伙伴销售数据或下季度财报中相关收入披露。"
+      },
+      {
+        "text": "OpenAI GPT-6 Astra Ultrafast在NVIDIA Blackwell GPU上运行并已上线API。",
+        "evidenceIds": [
+          "e-5395303ce7"
+        ],
+        "quote": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, faster generation can shorten coding agents’ edit-test-debug cycles, reduce the time spent generating responses",
+        "businessEffect": "强化Blackwell在推理场景的采用，可能支撑数据中心GPU需求。",
+        "assetEffect": "属生态合作信号，但无采购量或合同金额，不能直接映射为收入。",
+        "uncertainty": "合作规模与商业条款未披露。",
+        "test": "观察OpenAI或NVIDIA是否披露GPU采购、算力扩容或数据中心资本开支细节。"
+      }
+    ],
+    "bullCase": "若DGX Spark与OpenAI合作转化为可验证的订单与出货，且下一季度数据中心收入延续增长，产品叙事可能获得基本面支撑。",
+    "bearCase": "若公告仅停留在产品发布层面，无销量或收入证据，且原生美股与永续数据不同步、缺乏实时行情，则价格波动可能由宏观或流动性因素驱动，而非公司事件。",
+    "decisionQuestion": "未来一周内，是否出现可验证的NVIDIA官方出货、订单或财务数据，以及原生美股与永续的同步报价，足以支撑对产品公告的实质影响判断？",
+    "facts": [
+      {
+        "text": "NVIDIA博客称DGX Spark 64GB将于10月23日由宏碁、华硕、戴尔等厂商发售，起价4,999美元。",
+        "evidenceIds": [
+          "e-cecaa627e2"
+        ],
+        "quote": "that ran on one unit scales to two without reconfiguring the software environment. Get Started With DGX Spark DGX Spark 64GB is available from Acer, ASUS, Dell, Gigabyte, HP and MSI on Friday, Oct. 23, starting at $4,999. To get started: Download a supported inference framework — llama.cpp, Ollama, vLLM or LM Studio. Download the recommended local model for the workflow. To scale to two units, connect them via their NVIDIA ConnectX-7 ports and launch NVIDIA Sync Cluster"
+      },
+      {
+        "text": "NVIDIA博客称GPT-6 Astra Ultrafast运行于NVIDIA Blackwell GPU，已上线OpenAI API。",
+        "evidenceIds": [
+          "e-5395303ce7"
+        ],
+        "quote": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, faster generation can shorten coding agents’ edit-test-debug cycles, reduce the time spent generating responses"
+      },
+      {
+        "text": "SEC披露NVIDIA 2026-04-27至2026-07-26季度营收为962.21亿美元（US GAAP）。",
+        "evidenceIds": [
+          "fund-sec-companyfacts-NVDA"
+        ],
+        "quote": "{\"symbol\":\"NVDA\",\"entity\":\"NVIDIA CORP\",\"basis\":\"US GAAP\",\"metric\":\"revenue\",\"tag\":\"Revenues\",\"unit\":\"USD\",\"value\":96221000000,\"start\":\"2026-04-27\",\"end\":\"2026-07-26\",\"filed\":\"2026-08-26\",\"accession\":\"0001045810-26-000075\",\"form\":\"10-Q\",\"period\":\"quarter\",\"filingUrl\":\"https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/\"}"
+      },
+      {
+        "text": "Nasdaq原生快照显示NVDA价格为233.95美元，观察日为2026-10-01，属日期级延迟数据。",
+        "evidenceIds": [
+          "native-NVDA"
+        ],
+        "quote": "{ \"symbol\": \"NVDA\", \"name\": \"NVIDIA Corporation Common Stock\", \"exchange\": \"NASDAQ-GS\", \"currency\": \"USD\", \"instrumentType\": \"EQUITY\", \"price\": 233.95, \"observedAt\": \"2026-10-01\", \"retrievedAt\": \"2026-10-03T17:37:24.083Z\", \"freshness\": \"date-only / execution-unverified\", \"session\": \"weekend\", \"delay\": \"unknown\", \"dayHigh\": null, \"dayLow\": null, \"previousClose\": null, \"volume\": 135169179, \"candles\": [], \"warnings\": [ \"Yahoo unavailable: Native price HTTP 429; actual Nasdaq"
+      },
+      {
+        "text": "Bitget NVDAUSDT永续最新价234.72，24小时涨跌幅0.00068，资金费率0。",
+        "evidenceIds": [
+          "venue-tickers-NVDA"
+        ],
+        "quote": "[ { \"category\": \"USDT-FUTURES\", \"symbol\": \"NVDAUSDT\", \"ts\": \"1791049043714\", \"lastPrice\": \"234.72\", \"openPrice24h\": \"234.56\", \"highPrice24h\": \"235.02\", \"lowPrice24h\": \"233.9\", \"ask1Price\": \"234.72\", \"bid1Price\": \"234.71\", \"bid1Size\": \"127.77\", \"ask1Size\": \"4.43\", \"price24hPcnt\": \"0.00068\", \"volume24h\": \"12798.48\", \"turnover24h\": \"3000394.0528\", \"indexPrice\": \"234.7082172227186183\", \"markPrice\": \"234.72\", \"fundingRate\": \"0\", \"openInterest\": \"46814.89999999956\","
+      }
+    ],
+    "inferences": [
+      {
+        "text": "DGX Spark新SKU与OpenAI合作属产品层面利好，可能强化本地AI与推理需求叙事，但公告未披露销量、订单或收入贡献。",
+        "evidenceIds": [
+          "e-cecaa627e2"
+        ],
+        "quote": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, ASUS, Dell, Gigabyte, HP and MSI — giving developers, researchers and AI enthusiasts a new configuration with DGX OS and the NVIDIA AI"
+      },
+      {
+        "text": "永续价格与原生快照接近，但两者观察时间不同步（10月1日 vs 10月3日），不能据此推断溢价或套利空间。",
+        "evidenceIds": [
+          "native-NVDA"
+        ],
+        "quote": "fallback used.\", \"Actual Nasdaq native stock quote. Provider timestamp: Oct 1, 2026. Only its calendar date is retained; no intraday timestamp is invented.\", \"Date-only delayed observation; executable price, bid/ask and 5-day candles are unavailable. Not a real-time quote or synchronized cross-market price.\", \"Public endpoint SLA and redistribution entitlement are unverified; do not infer arbitrage.\" ] }"
+      },
+      {
+        "text": "资金费率为0仅说明该时点资金费为零，不足以证明情绪中性或无拥挤。",
+        "evidenceIds": [
+          "venue-tickers-NVDA"
+        ],
+        "quote": "[ { \"category\": \"USDT-FUTURES\", \"symbol\": \"NVDAUSDT\", \"ts\": \"1791049043714\", \"lastPrice\": \"234.72\", \"openPrice24h\": \"234.56\", \"highPrice24h\": \"235.02\", \"lowPrice24h\": \"233.9\", \"ask1Price\": \"234.72\", \"bid1Price\": \"234.71\", \"bid1Size\": \"127.77\", \"ask1Size\": \"4.43\", \"price24hPcnt\": \"0.00068\", \"volume24h\": \"12798.48\", \"turnover24h\": \"3000394.0528\", \"indexPrice\": \"234.7082172227186183\", \"markPrice\": \"234.72\", \"fundingRate\": \"0\", \"openInterest\": \"46814.89999999956\","
+      }
+    ],
+    "counterEvidence": [
+      {
+        "text": "Nasdaq一致预期EPS口径未经验证且无营收一致预期，无法与GAAP已披露数据比较以判断超预期。",
+        "evidenceIds": [
+          "fund-nasdaq-consensus-NVDA"
+        ],
+        "quote": "{\"symbol\":\"NVDA\",\"estimateUpdatedAt\":null,\"epsBasis\":\"unverified\",\"epsCurrency\":\"USD per share\"}"
+      },
+      {
+        "text": "原生美股快照为日期级延迟、无盘中时间戳、无买卖盘，不能作为实时或可执行价格。",
+        "evidenceIds": [
+          "native-NVDA"
+        ],
+        "quote": "fallback used.\", \"Actual Nasdaq native stock quote. Provider timestamp: Oct 1, 2026. Only its calendar date is retained; no intraday timestamp is invented.\", \"Date-only delayed observation; executable price, bid/ask and 5-day candles are unavailable. Not a real-time quote or synchronized cross-market price.\", \"Public endpoint SLA and redistribution entitlement are unverified; do not infer arbitrage.\" ] }"
+      }
+    ],
+    "invalidationConditions": [
+      "若NVIDIA发布正式财报或指引，且显示产品相关收入显著变化，则当前'缺乏财务证据'的判断需修正。",
+      "若出现同步的原生美股实时报价与永续报价，可重新评估跨市场价格关系。"
+    ],
+    "watchIndicators": [
+      "NVIDIA官方博客或新闻稿是否披露DGX Spark出货或订单数据。",
+      "下一季度SEC 10-Q是否披露相关产品收入分部。",
+      "原生美股是否恢复实时报价并与永续时间同步。"
+    ],
+    "waitConditions": [
+      "等待NVIDIA官方披露DGX Spark实际销量或相关收入数据。",
+      "等待原生美股实时报价与Bitget永续同步，方可评估跨市场价格关系。",
+      "原生股可执行报价与可赎回代币映射未验证；实际合约盘口仅为快照，不能据此确认成交或跨市场套利。"
+    ],
+    "conclusion": "wait",
+    "limitations": [
+      "原生美股仅有2026-10-01日期级延迟快照，无盘中时间戳、买卖盘或5日K线，不可执行。",
+      "Bitget永续为股票永续合约，非原生股票或可赎回代币，不可等同于NAV。",
+      "Nasdaq一致预期EPS口径未验证、更新时间未知，且无营收一致预期，不可与GAAP数据比较。",
+      "市场数据为提供方观察值，非公司官方事实；价格变动不能证明事件因果。",
+      "SEC财务数据为历史GAAP披露，非实时财报。",
+      "公司与政策事实不等于价格预期差；一致预期和当前可执行价格仍须独立核实。"
+    ],
+    "citationReview": {
+      "checked": 9,
+      "removed": 0,
+      "status": "reviewed",
+      "notes": []
+    }
+  },
+  "errors": [
+    "部分原始数据服务失败；SEC/Nasdaq 备用来源的取得情况见工具状态，未补齐的字段继续保留限制。"
+  ],
+  "engine": "llm",
+  "durationMs": 30339,
+  "usage": {
+    "attempts": [
+      {
+        "prompt_tokens": 21458,
+        "completion_tokens": 1447,
+        "total_tokens": 22905,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 20818
+      }
+    ],
+    "citationReview": {
+      "prompt_tokens": 1568,
+      "completion_tokens": 397,
+      "total_tokens": 1965,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 1568
+    }
+  },
+  "stages": [
+    {
+      "name": "evidence",
+      "status": "running",
+      "detail": "正在获取真实证据与市场资料",
+      "at": "2026-10-03T17:37:23.312Z"
+    },
+    {
+      "name": "evidence",
+      "status": "complete",
+      "detail": "13 份实际资料；9/16 工具取数成功",
+      "at": "2026-10-03T17:37:44.329Z"
+    },
+    {
+      "name": "analysis",
+      "status": "running",
+      "detail": "模型推理、反证与引用核验",
+      "at": "2026-10-03T17:37:44.334Z"
+    },
+    {
+      "name": "analysis",
+      "status": "complete",
+      "detail": "结构与原文引用已校验；语义复核移除 0 项，仍需人工审阅",
+      "at": "2026-10-03T17:37:53.634Z"
+    },
+    {
+      "name": "saved",
+      "status": "complete",
+      "detail": "研究记录与导出已保存",
+      "at": "2026-10-03T17:37:53.638Z"
+    }
+  ],
+  "tools": [
+    {
+      "tool": "do_query",
+      "label": "公司基本面",
+      "skill": "bitget-mcp-server",
+      "endpoint": "https://agent.bitget.com/mcp",
+      "arguments": {
+        "entry_id": "equity_profile",
+        "params": {
+          "symbol": "NVDA"
+        }
+      },
+      "startedAt": "2026-10-03T17:37:24.594Z",
+      "durationMs": 95,
+      "status": "failed",
+      "error": "Provider returned unsuccessful data (HTTP 503)",
+      "evidenceId": null
+    },
+    {
+      "tool": "do_query",
+      "label": "利润表",
+      "skill": "bitget-mcp-server",
+      "endpoint": "https://agent.bitget.com/mcp",
+      "arguments": {
+        "entry_id": "equity_fundamental_income",
+        "params": {
+          "symbol": "NVDA",
+          "limit": 2
+        }
+      },
+      "startedAt": "2026-10-03T17:37:24.594Z",
+      "durationMs": 94,
+      "status": "failed",
+      "error": "Provider returned unsuccessful data (HTTP 503)",
+      "evidenceId": null
+    },
+    {
+      "tool": "do_query",
+      "label": "估值指标",
+      "skill": "bitget-mcp-server",
+      "endpoint": "https://agent.bitget.com/mcp",
+      "arguments": {
+        "entry_id": "equity_fundamental_ratios",
+        "params": {
+          "symbol": "NVDA",
+          "limit": 2
+        }
+      },
+      "startedAt": "2026-10-03T17:37:24.596Z",
+      "durationMs": 88,
+      "status": "failed",
+      "error": "Provider returned unsuccessful data (HTTP 503)",
+      "evidenceId": null
+    },
+    {
+      "tool": "do_query",
+      "label": "分析师一致预期",
+      "skill": "bitget-mcp-server",
+      "endpoint": "https://agent.bitget.com/mcp",
+      "arguments": {
+        "entry_id": "equity_estimates_consensus",
+        "params": {
+          "symbol": "NVDA"
+        }
+      },
+      "startedAt": "2026-10-03T17:37:24.596Z",
+      "durationMs": 299,
+      "status": "failed",
+      "error": "Provider returned unsuccessful data (HTTP 503)",
+      "evidenceId": null
+    },
+    {
+      "tool": "do_query",
+      "label": "历史价格",
+      "skill": "bitget-mcp-server",
+      "endpoint": "https://agent.bitget.com/mcp",
+      "arguments": {
+        "entry_id": "equity_price_historical",
+        "params": {
+          "symbol": "NVDA"
+        }
+      },
+      "startedAt": "2026-10-03T17:37:24.596Z",
+      "durationMs": 298,
+      "status": "failed",
+      "error": "Provider returned unsuccessful data (HTTP 503)",
+      "evidenceId": null
+    },
+    {
+      "tool": "rates_yields",
+      "label": "利率与收益率背景",
+      "skill": "bitget-signal / macro-analyst + news-briefing",
+      "endpoint": "https://datahub.noxiaohao.com/mcp",
+      "arguments": {
+        "action": "rates_snapshot"
+      },
+      "startedAt": "2026-10-03T17:37:24.213Z",
+      "durationMs": 20103,
+      "status": "failed",
+      "error": "Empty or unsuccessful data response",
+      "evidenceId": null
+    },
+    {
+      "tool": "news_feed",
+      "label": "跨市场新闻线索",
+      "skill": "bitget-signal / macro-analyst + news-briefing",
+      "endpoint": "https://datahub.noxiaohao.com/mcp",
+      "arguments": {
+        "action": "latest",
+        "feeds": "cnbc,fed",
+        "keyword": "NVIDIA",
+        "limit": 3
+      },
+      "startedAt": "2026-10-03T17:37:24.214Z",
+      "durationMs": 20114,
+      "status": "failed",
+      "error": "Empty or unsuccessful data response",
+      "evidenceId": null
+    },
+    {
+      "tool": "market.instruments",
+      "label": "永续合约身份核验",
+      "skill": "Bitget Skill / Agent SDK · readOnly",
+      "endpoint": "https://api.bitget.com",
+      "arguments": {
+        "category": "USDT-FUTURES",
+        "symbol": "NVDAUSDT"
+      },
+      "startedAt": "2026-10-03T17:37:23.397Z",
+      "durationMs": 613,
+      "status": "success",
+      "error": null,
+      "evidenceId": "venue-instruments-NVDA"
+    },
+    {
+      "tool": "market.tickers",
+      "label": "永续合约报价与点差",
+      "skill": "Bitget Skill / Agent SDK · readOnly",
+      "endpoint": "https://api.bitget.com",
+      "arguments": {
+        "category": "USDT-FUTURES",
+        "symbol": "NVDAUSDT"
+      },
+      "startedAt": "2026-10-03T17:37:24.010Z",
+      "durationMs": 201,
+      "status": "success",
+      "error": null,
+      "evidenceId": "venue-tickers-NVDA"
+    },
+    {
+      "tool": "market.orderbook",
+      "label": "永续合约前五档盘口",
+      "skill": "Bitget Skill / Agent SDK · readOnly",
+      "endpoint": "https://api.bitget.com",
+      "arguments": {
+        "category": "USDT-FUTURES",
+        "symbol": "NVDAUSDT",
+        "limit": "5"
+      },
+      "startedAt": "2026-10-03T17:37:24.011Z",
+      "durationMs": 271,
+      "status": "success",
+      "error": null,
+      "evidenceId": "venue-orderbook-NVDA"
+    },
+    {
+      "tool": "market.candles",
+      "label": "永续合约近48小时价格",
+      "skill": "Bitget Skill / Agent SDK · readOnly",
+      "endpoint": "https://api.bitget.com",
+      "arguments": {
+        "category": "USDT-FUTURES",
+        "symbol": "NVDAUSDT",
+        "interval": "1H",
+        "limit": "48"
+      },
+      "startedAt": "2026-10-03T17:37:24.011Z",
+      "durationMs": 278,
+      "status": "success",
+      "error": null,
+      "evidenceId": "venue-candles-NVDA"
+    },
+    {
+      "tool": "native-equity.chart",
+      "label": "原生美股报价与5日价格",
+      "skill": "Nasdaq native equity fallback · date-only observation validation",
+      "endpoint": "https://api.nasdaq.com/api/quote/NVDA/info?assetclass=stocks",
+      "arguments": {
+        "symbol": "NVDA",
+        "interval": "1h",
+        "range": "5d"
+      },
+      "startedAt": "2026-10-03T17:37:23.353Z",
+      "durationMs": 822,
+      "status": "success",
+      "error": null,
+      "evidenceId": "native-NVDA"
+    },
+    {
+      "tool": "nasdaq-profile",
+      "label": "Nasdaq 公司与行业资料",
+      "skill": "Public primary-source fallback",
+      "endpoint": "https://api.nasdaq.com/api/company/NVDA/company-profile",
+      "arguments": {
+        "symbol": "NVDA"
+      },
+      "startedAt": "2026-10-03T17:37:23.355Z",
+      "durationMs": 246,
+      "status": "success",
+      "error": null,
+      "evidenceId": "fund-nasdaq-profile-NVDA"
+    },
+    {
+      "tool": "nasdaq-consensus",
+      "label": "Nasdaq 盈利一致预期",
+      "skill": "Public primary-source fallback",
+      "endpoint": "https://api.nasdaq.com/api/analyst/NVDA/earnings-forecast",
+      "arguments": {
+        "symbol": "NVDA"
+      },
+      "startedAt": "2026-10-03T17:37:23.355Z",
+      "durationMs": 324,
+      "status": "success",
+      "error": null,
+      "evidenceId": "fund-nasdaq-consensus-NVDA"
+    },
+    {
+      "tool": "sec-companyfacts",
+      "label": "SEC 已披露财务数据",
+      "skill": "Public primary-source fallback",
+      "endpoint": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+      "arguments": {
+        "symbol": "NVDA"
+      },
+      "startedAt": "2026-10-03T17:37:23.355Z",
+      "durationMs": 2245,
+      "status": "success",
+      "error": null,
+      "evidenceId": "fund-sec-companyfacts-NVDA"
+    },
+    {
+      "tool": "treasury-yield-curve",
+      "label": "美国财政部日收益率",
+      "skill": "Official Treasury public feed fallback",
+      "endpoint": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value_month=202610",
+      "arguments": {},
+      "startedAt": "2026-10-03T17:37:23.383Z",
+      "durationMs": 817,
+      "status": "success",
+      "error": null,
+      "evidenceId": "macro-treasury"
+    }
+  ],
+  "fundamentals": {
+    "symbol": "NVDA",
+    "retrievedAt": "2026-10-03T17:37:23.355Z",
+    "companyName": "NVIDIA Corporation",
+    "industry": "Semiconductors",
+    "sector": "Technology",
+    "financials": [
+      {
+        "metric": "revenue",
+        "tag": "Revenues",
+        "unit": "USD",
+        "value": 96221000000,
+        "start": "2026-04-27",
+        "end": "2026-07-26",
+        "filed": "2026-08-26",
+        "accession": "0001045810-26-000075",
+        "form": "10-Q",
+        "period": "quarter",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/"
+      },
+      {
+        "metric": "revenue",
+        "tag": "Revenues",
+        "unit": "USD",
+        "value": 81615000000,
+        "start": "2026-01-26",
+        "end": "2026-04-26",
+        "filed": "2026-05-20",
+        "accession": "0001045810-26-000052",
+        "form": "10-Q",
+        "period": "quarter",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/"
+      },
+      {
+        "metric": "revenue",
+        "tag": "Revenues",
+        "unit": "USD",
+        "value": 215938000000,
+        "start": "2025-01-27",
+        "end": "2026-01-25",
+        "filed": "2026-02-25",
+        "accession": "0001045810-26-000021",
+        "form": "10-K",
+        "period": "annual",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/"
+      },
+      {
+        "metric": "netIncome",
+        "tag": "NetIncomeLoss",
+        "unit": "USD",
+        "value": 59688000000,
+        "start": "2026-04-27",
+        "end": "2026-07-26",
+        "filed": "2026-08-26",
+        "accession": "0001045810-26-000075",
+        "form": "10-Q",
+        "period": "quarter",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/"
+      },
+      {
+        "metric": "netIncome",
+        "tag": "NetIncomeLoss",
+        "unit": "USD",
+        "value": 58321000000,
+        "start": "2026-01-26",
+        "end": "2026-04-26",
+        "filed": "2026-05-20",
+        "accession": "0001045810-26-000052",
+        "form": "10-Q",
+        "period": "quarter",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/"
+      },
+      {
+        "metric": "netIncome",
+        "tag": "NetIncomeLoss",
+        "unit": "USD",
+        "value": 120067000000,
+        "start": "2025-01-27",
+        "end": "2026-01-25",
+        "filed": "2026-02-25",
+        "accession": "0001045810-26-000021",
+        "form": "10-K",
+        "period": "annual",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/"
+      },
+      {
+        "metric": "dilutedEPS",
+        "tag": "EarningsPerShareDiluted",
+        "unit": "USD/shares",
+        "value": 2.46,
+        "start": "2026-04-27",
+        "end": "2026-07-26",
+        "filed": "2026-08-26",
+        "accession": "0001045810-26-000075",
+        "form": "10-Q",
+        "period": "quarter",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/"
+      },
+      {
+        "metric": "dilutedEPS",
+        "tag": "EarningsPerShareDiluted",
+        "unit": "USD/shares",
+        "value": 2.39,
+        "start": "2026-01-26",
+        "end": "2026-04-26",
+        "filed": "2026-05-20",
+        "accession": "0001045810-26-000052",
+        "form": "10-Q",
+        "period": "quarter",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/"
+      },
+      {
+        "metric": "dilutedEPS",
+        "tag": "EarningsPerShareDiluted",
+        "unit": "USD/shares",
+        "value": 4.9,
+        "start": "2025-01-27",
+        "end": "2026-01-25",
+        "filed": "2026-02-25",
+        "accession": "0001045810-26-000021",
+        "form": "10-K",
+        "period": "annual",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/"
+      },
+      {
+        "metric": "assets",
+        "tag": "Assets",
+        "unit": "USD",
+        "value": 320272000000,
+        "start": null,
+        "end": "2026-07-26",
+        "filed": "2026-08-26",
+        "accession": "0001045810-26-000075",
+        "form": "10-Q",
+        "period": "instant",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/"
+      },
+      {
+        "metric": "equity",
+        "tag": "StockholdersEquity",
+        "unit": "USD",
+        "value": 228984000000,
+        "start": null,
+        "end": "2026-07-26",
+        "filed": "2026-08-26",
+        "accession": "0001045810-26-000075",
+        "form": "10-Q",
+        "period": "instant",
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/"
+      }
+    ],
+    "consensus": [
+      {
+        "fiscalEnd": "Oct 2026",
+        "period": "quarter",
+        "eps": 2.47,
+        "high": 2.7,
+        "low": 2.34,
+        "analysts": 13
+      },
+      {
+        "fiscalEnd": "Jan 2027",
+        "period": "quarter",
+        "eps": 2.71,
+        "high": 2.94,
+        "low": 2.53,
+        "analysts": 12
+      },
+      {
+        "fiscalEnd": "Apr 2027",
+        "period": "quarter",
+        "eps": 3.15,
+        "high": 3.53,
+        "low": 2.9,
+        "analysts": 11
+      },
+      {
+        "fiscalEnd": "Jul 2027",
+        "period": "quarter",
+        "eps": 3.58,
+        "high": 3.94,
+        "low": 3.23,
+        "analysts": 11
+      },
+      {
+        "fiscalEnd": "Jan 2027",
+        "period": "annual",
+        "eps": 9.25,
+        "high": 9.71,
+        "low": 9.01,
+        "analysts": 17
+      },
+      {
+        "fiscalEnd": "Jan 2028",
+        "period": "annual",
+        "eps": 15.53,
+        "high": 17.04,
+        "low": 13.45,
+        "analysts": 15
+      }
+    ],
+    "consensusAsOf": null,
+    "warnings": [
+      "SEC facts are GAAP historical disclosures, not a real-time earnings release. Fiscal periods use start/end dates; filing fiscal-year metadata is not assumed to be the period year.",
+      "Nasdaq consensus is a provider forecast snapshot. Estimate-update time and accounting basis are unverified; never compare GAAP EPS with these estimates to claim beat/miss. No revenue consensus was retrieved.",
+      "These public endpoints have no verified production SLA or redistribution license. Successful responses are cached for one hour; retrievedAt is application retrieval time, not provider update time."
+    ]
+  },
+  "macro": {
+    "provider": "US Treasury",
+    "unit": "percent per annum",
+    "observedDate": "2026-10-02",
+    "rates": {
+      "3M": 4.19,
+      "2Y": 4.83,
+      "10Y": 5.28,
+      "30Y": 5.63
+    },
+    "previous": {
+      "date": "2026-10-01",
+      "rates": {
+        "3M": 4.17,
+        "2Y": 4.78,
+        "10Y": 5.24,
+        "30Y": 5.61
+      }
+    }
+  },
+  "venue": {
+    "symbol": "NVDAUSDT",
+    "product": "stock-perpetual",
+    "quoteCurrency": "USDT",
+    "observedAt": "2026-10-03T17:37:23.714Z",
+    "freshness": "fresh",
+    "last": 234.72,
+    "bid": 234.71,
+    "ask": 234.72,
+    "spreadBps": 0.42604861214625844,
+    "bidSize": 127.77,
+    "askSize": 4.43,
+    "volume24h": 12798.48,
+    "turnover24h": 3000394.0528,
+    "fundingRate": 0,
+    "bids": [],
+    "asks": [],
+    "bookObservedAt": "2026-10-03T17:37:24.220Z",
+    "candles": [
+      {
+        "at": "2026-10-01T18:00:00.000Z",
+        "close": 232.55
+      },
+      {
+        "at": "2026-10-01T19:00:00.000Z",
+        "close": 231.32
+      },
+      {
+        "at": "2026-10-01T20:00:00.000Z",
+        "close": 231.42
+      },
+      {
+        "at": "2026-10-01T21:00:00.000Z",
+        "close": 231.36
+      },
+      {
+        "at": "2026-10-01T22:00:00.000Z",
+        "close": 231.72
+      },
+      {
+        "at": "2026-10-01T23:00:00.000Z",
+        "close": 231.68
+      },
+      {
+        "at": "2026-10-02T00:00:00.000Z",
+        "close": 231.91
+      },
+      {
+        "at": "2026-10-02T01:00:00.000Z",
+        "close": 231.95
+      },
+      {
+        "at": "2026-10-02T02:00:00.000Z",
+        "close": 232.1
+      },
+      {
+        "at": "2026-10-02T03:00:00.000Z",
+        "close": 232.02
+      },
+      {
+        "at": "2026-10-02T04:00:00.000Z",
+        "close": 232.35
+      },
+      {
+        "at": "2026-10-02T05:00:00.000Z",
+        "close": 232.17
+      },
+      {
+        "at": "2026-10-02T06:00:00.000Z",
+        "close": 231.97
+      },
+      {
+        "at": "2026-10-02T07:00:00.000Z",
+        "close": 232.56
+      },
+      {
+        "at": "2026-10-02T08:00:00.000Z",
+        "close": 233.42
+      },
+      {
+        "at": "2026-10-02T09:00:00.000Z",
+        "close": 233.94
+      },
+      {
+        "at": "2026-10-02T10:00:00.000Z",
+        "close": 233.88
+      },
+      {
+        "at": "2026-10-02T11:00:00.000Z",
+        "close": 235.08
+      },
+      {
+        "at": "2026-10-02T12:00:00.000Z",
+        "close": 236.04
+      },
+      {
+        "at": "2026-10-02T13:00:00.000Z",
+        "close": 237.56
+      },
+      {
+        "at": "2026-10-02T14:00:00.000Z",
+        "close": 236.77
+      },
+      {
+        "at": "2026-10-02T15:00:00.000Z",
+        "close": 235.71
+      },
+      {
+        "at": "2026-10-02T16:00:00.000Z",
+        "close": 235.3
+      },
+      {
+        "at": "2026-10-02T17:00:00.000Z",
+        "close": 234.82
+      },
+      {
+        "at": "2026-10-02T18:00:00.000Z",
+        "close": 234.77
+      },
+      {
+        "at": "2026-10-02T19:00:00.000Z",
+        "close": 234.23
+      },
+      {
+        "at": "2026-10-02T20:00:00.000Z",
+        "close": 234.15
+      },
+      {
+        "at": "2026-10-02T21:00:00.000Z",
+        "close": 234.08
+      },
+      {
+        "at": "2026-10-02T22:00:00.000Z",
+        "close": 234.17
+      },
+      {
+        "at": "2026-10-02T23:00:00.000Z",
+        "close": 234.42
+      },
+      {
+        "at": "2026-10-03T00:00:00.000Z",
+        "close": 234.45
+      },
+      {
+        "at": "2026-10-03T01:00:00.000Z",
+        "close": 234.63
+      },
+      {
+        "at": "2026-10-03T02:00:00.000Z",
+        "close": 234.46
+      },
+      {
+        "at": "2026-10-03T03:00:00.000Z",
+        "close": 234.48
+      },
+      {
+        "at": "2026-10-03T04:00:00.000Z",
+        "close": 234.45
+      },
+      {
+        "at": "2026-10-03T05:00:00.000Z",
+        "close": 234.43
+      },
+      {
+        "at": "2026-10-03T06:00:00.000Z",
+        "close": 234.45
+      },
+      {
+        "at": "2026-10-03T07:00:00.000Z",
+        "close": 234.6
+      },
+      {
+        "at": "2026-10-03T08:00:00.000Z",
+        "close": 234.64
+      },
+      {
+        "at": "2026-10-03T09:00:00.000Z",
+        "close": 234.68
+      },
+      {
+        "at": "2026-10-03T10:00:00.000Z",
+        "close": 234.63
+      },
+      {
+        "at": "2026-10-03T11:00:00.000Z",
+        "close": 234.56
+      },
+      {
+        "at": "2026-10-03T12:00:00.000Z",
+        "close": 234.46
+      },
+      {
+        "at": "2026-10-03T13:00:00.000Z",
+        "close": 234.55
+      },
+      {
+        "at": "2026-10-03T14:00:00.000Z",
+        "close": 234.72
+      },
+      {
+        "at": "2026-10-03T15:00:00.000Z",
+        "close": 234.73
+      },
+      {
+        "at": "2026-10-03T16:00:00.000Z",
+        "close": 234.68
+      },
+      {
+        "at": "2026-10-03T17:00:00.000Z",
+        "close": 234.72
+      }
+    ],
+    "warnings": [
+      "Verified exchange stock-perpetual identity, not native shares or redeemable token ownership.",
+      "Public quote is a snapshot, not guaranteed execution; order size, fees, funding, basis and instrument trading schedule remain relevant.",
+      "No synchronized native US-equity quote: no cross-market premium or arbitrage calculation."
+    ]
+  },
+  "native": {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corporation Common Stock",
+    "exchange": "NASDAQ-GS",
+    "currency": "USD",
+    "instrumentType": "EQUITY",
+    "price": 233.95,
+    "observedAt": "2026-10-01",
+    "retrievedAt": "2026-10-03T17:37:24.083Z",
+    "freshness": "date-only / execution-unverified",
+    "session": "weekend",
+    "delay": "unknown",
+    "dayHigh": null,
+    "dayLow": null,
+    "previousClose": null,
+    "volume": 135169179,
+    "candles": [],
+    "warnings": [
+      "Yahoo unavailable: Native price HTTP 429; actual Nasdaq fallback used.",
+      "Actual Nasdaq native stock quote. Provider timestamp: Oct 1, 2026. Only its calendar date is retained; no intraday timestamp is invented.",
+      "Date-only delayed observation; executable price, bid/ask and 5-day candles are unavailable. Not a real-time quote or synchronized cross-market price.",
+      "Public endpoint SLA and redistribution entitlement are unverified; do not infer arbitrage."
+    ]
+  }
+}

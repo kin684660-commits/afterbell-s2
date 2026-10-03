@@ -1,0 +1,14 @@
+node_modules/
+.next/
+.env*
+!.env.example
+data/*.sqlite*
+data/reports/
+data/sources/
+data/test-*.sqlite*
+playwright-report/
+test-results/
+next-env.d.ts
+work/
+
+!.env.production.example

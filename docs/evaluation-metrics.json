@@ -1,0 +1,267 @@
+{
+  "generatedAt": "2026-10-03T09:12:50.565Z",
+  "model": "deepseek-flash",
+  "cases": [
+    {
+      "caseId": "event-1",
+      "passed": true,
+      "afterbellMs": 9684,
+      "baselineMs": 3754,
+      "usage": {
+        "prompt_tokens": 3409,
+        "completion_tokens": 1869,
+        "total_tokens": 5278,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 3409
+      },
+      "baselineUsage": {
+        "prompt_tokens": 1250,
+        "completion_tokens": 630,
+        "total_tokens": 1880,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "prompt_cache_hit_tokens": 1024,
+        "prompt_cache_miss_tokens": 226
+      }
+    },
+    {
+      "caseId": "event-2",
+      "passed": true,
+      "afterbellMs": 10523,
+      "baselineMs": 3656,
+      "usage": {
+        "prompt_tokens": 3300,
+        "completion_tokens": 1940,
+        "total_tokens": 5240,
+        "prompt_tokens_details": {
+          "cached_tokens": 384
+        },
+        "prompt_cache_hit_tokens": 384,
+        "prompt_cache_miss_tokens": 2916
+      },
+      "baselineUsage": {
+        "prompt_tokens": 1203,
+        "completion_tokens": 570,
+        "total_tokens": 1773,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "prompt_cache_hit_tokens": 1024,
+        "prompt_cache_miss_tokens": 179
+      }
+    },
+    {
+      "caseId": "event-3",
+      "passed": true,
+      "afterbellMs": 9328,
+      "baselineMs": 4171,
+      "usage": {
+        "prompt_tokens": 3479,
+        "completion_tokens": 1889,
+        "total_tokens": 5368,
+        "prompt_tokens_details": {
+          "cached_tokens": 384
+        },
+        "prompt_cache_hit_tokens": 384,
+        "prompt_cache_miss_tokens": 3095
+      },
+      "baselineUsage": {
+        "prompt_tokens": 1278,
+        "completion_tokens": 648,
+        "total_tokens": 1926,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "prompt_cache_hit_tokens": 1024,
+        "prompt_cache_miss_tokens": 254
+      }
+    },
+    {
+      "caseId": "event-4",
+      "passed": true,
+      "afterbellMs": 9836,
+      "baselineMs": 4343,
+      "usage": {
+        "prompt_tokens": 8421,
+        "completion_tokens": 2026,
+        "total_tokens": 10447,
+        "prompt_tokens_details": {
+          "cached_tokens": 384
+        },
+        "prompt_cache_hit_tokens": 384,
+        "prompt_cache_miss_tokens": 8037
+      },
+      "baselineUsage": {
+        "prompt_tokens": 3470,
+        "completion_tokens": 710,
+        "total_tokens": 4180,
+        "prompt_tokens_details": {
+          "cached_tokens": 3328
+        },
+        "prompt_cache_hit_tokens": 3328,
+        "prompt_cache_miss_tokens": 142
+      }
+    },
+    {
+      "caseId": "event-5",
+      "passed": true,
+      "afterbellMs": 9724,
+      "baselineMs": 4196,
+      "usage": {
+        "prompt_tokens": 6625,
+        "completion_tokens": 2007,
+        "total_tokens": 8632,
+        "prompt_tokens_details": {
+          "cached_tokens": 384
+        },
+        "prompt_cache_hit_tokens": 384,
+        "prompt_cache_miss_tokens": 6241
+      },
+      "baselineUsage": {
+        "prompt_tokens": 2611,
+        "completion_tokens": 723,
+        "total_tokens": 3334,
+        "prompt_tokens_details": {
+          "cached_tokens": 2432
+        },
+        "prompt_cache_hit_tokens": 2432,
+        "prompt_cache_miss_tokens": 179
+      }
+    },
+    {
+      "caseId": "event-6",
+      "passed": true,
+      "afterbellMs": 10409,
+      "baselineMs": 4447,
+      "usage": {
+        "prompt_tokens": 9733,
+        "completion_tokens": 2202,
+        "total_tokens": 11935,
+        "prompt_tokens_details": {
+          "cached_tokens": 384
+        },
+        "prompt_cache_hit_tokens": 384,
+        "prompt_cache_miss_tokens": 9349
+      },
+      "baselineUsage": {
+        "prompt_tokens": 5322,
+        "completion_tokens": 683,
+        "total_tokens": 6005,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "prompt_cache_hit_tokens": 5120,
+        "prompt_cache_miss_tokens": 202
+      }
+    },
+    {
+      "caseId": "event-7",
+      "passed": true,
+      "afterbellMs": 10388,
+      "baselineMs": 4219,
+      "usage": {
+        "prompt_tokens": 8822,
+        "completion_tokens": 2273,
+        "total_tokens": 11095,
+        "prompt_tokens_details": {
+          "cached_tokens": 384
+        },
+        "prompt_cache_hit_tokens": 384,
+        "prompt_cache_miss_tokens": 8438
+      },
+      "baselineUsage": {
+        "prompt_tokens": 4531,
+        "completion_tokens": 727,
+        "total_tokens": 5258,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "prompt_cache_hit_tokens": 4352,
+        "prompt_cache_miss_tokens": 179
+      }
+    },
+    {
+      "caseId": "event-8",
+      "passed": true,
+      "afterbellMs": 10363,
+      "baselineMs": 4255,
+      "usage": {
+        "prompt_tokens": 9698,
+        "completion_tokens": 2367,
+        "total_tokens": 12065,
+        "prompt_tokens_details": {
+          "cached_tokens": 384
+        },
+        "prompt_cache_hit_tokens": 384,
+        "prompt_cache_miss_tokens": 9314
+      },
+      "baselineUsage": {
+        "prompt_tokens": 5158,
+        "completion_tokens": 725,
+        "total_tokens": 5883,
+        "prompt_tokens_details": {
+          "cached_tokens": 4992
+        },
+        "prompt_cache_hit_tokens": 4992,
+        "prompt_cache_miss_tokens": 166
+      }
+    },
+    {
+      "caseId": "event-9",
+      "passed": true,
+      "afterbellMs": 8746,
+      "baselineMs": 3915,
+      "usage": {
+        "prompt_tokens": 2263,
+        "completion_tokens": 1756,
+        "total_tokens": 4019,
+        "prompt_tokens_details": {
+          "cached_tokens": 384
+        },
+        "prompt_cache_hit_tokens": 384,
+        "prompt_cache_miss_tokens": 1879
+      },
+      "baselineUsage": {
+        "prompt_tokens": 719,
+        "completion_tokens": 625,
+        "total_tokens": 1344,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 207
+      }
+    },
+    {
+      "caseId": "event-10",
+      "passed": true,
+      "afterbellMs": 8707,
+      "baselineMs": 3416,
+      "usage": {
+        "prompt_tokens": 2271,
+        "completion_tokens": 1717,
+        "total_tokens": 3988,
+        "prompt_tokens_details": {
+          "cached_tokens": 384
+        },
+        "prompt_cache_hit_tokens": 384,
+        "prompt_cache_miss_tokens": 1887
+      },
+      "baselineUsage": {
+        "prompt_tokens": 730,
+        "completion_tokens": 514,
+        "total_tokens": 1244,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 218
+      }
+    }
+  ],
+  "limitations": "Blind human review required for correctness; token counts are observed, cost unknown until provider billing is supplied. Retrospective excerpts and model hindsight limit historical evaluation."
+}
