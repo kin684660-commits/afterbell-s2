@@ -23,4 +23,3 @@ No account authorization, trading, wallet action or publishing is part of the ap
 
 The five installed signal Skills are not five working integrations: only macro-analyst/news-briefing workflows are implemented, and their actual data availability is shown. All provider failures remain in the research record. No functionality credit is inferred from installing a package alone.
 
-Official handbook currently displays Sept 27 submission dates and Oct 8 awards; the user's Oct 8 extension remains a separate planning assumption pending a newer official announcement. The document is source material, not authorization to post, publish, trade or grant account access.

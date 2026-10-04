@@ -34,7 +34,7 @@ SQLite 单实例持久化。备份须使用 SQLite backup 接口或停服务后�
 核对时间：2026-10-04（北京时间）。
 
 已完成腾讯云东京实例部署，HTTPS Demo：https://afterbell.43.167.174.154.nip.io/
-参赛材料：https://afterbell.43.167.174.154.nip.io/submission/index.html
+演示与技术验证：https://afterbell.43.167.174.154.nip.io/submission/index.html
 
 用户授权安装官方 TAT 并重启后，TAT 已在线、实例已完成普通重启。未重置服务器密码。部署前磁盘剩36GB，部署后35GB；2GB物理内存，部署后可用约640MB、2GB交换空间未使用。应用实测约99MB，限制384MB、CPU0.5核；构建采用Webpack单工作进程，限制768MB并通过类型检查。首轮Turbopack构建被终止，已由低内存构建解决。
 
@@ -46,4 +46,4 @@ HTTPS采用nip.io解析域名，依赖该免费DNS服务；未购买托管。它
 
 回滚：使用 /opt/afterbell-s2/releases/20261004-0050/compose.yaml 执行同项目Docker Compose up，保留研究数据。首版没有Nasdaq备用来源。只撤回Afterbell的Caddy域名块时需保留其他现有配置；不能直接恢复旧备份而覆盖部署后他人新增配置。
 
-未执行报名提交、X发布、公开源码。需要用户补队伍名称、联系人和X实际发布链接；独立准确性评估与3名真实用户验证仍待完成。
+源码已按MIT许可证公开。独立准确性评估与真实用户验证仍待完成。

@@ -12,3 +12,12 @@ next-env.d.ts
 work/
 
 !.env.production.example
+
+# Local-only registration and promotion drafts
+/docs/SUBMISSION.md
+/docs/SUBMISSION_ZH.md
+/docs/SUBMISSION_READINESS_ZH.md
+/docs/X_DRAFT.md
+/docs/USER_STUDY.md
+/public/submission/project-description.md
+/public/submission/user-study.md

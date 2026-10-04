@@ -40,7 +40,7 @@ DeepSeek defaults: `AFTERBELL_API_BASE=https://api.deepseek.com`, `AFTERBELL_MOD
 
 ## Structure
 
-`app/`: UI and server routes. `lib/`: evidence retrieval, MCP, model, guardrails, cases and SQLite. `tests/`: failure and provenance checks. `scripts/`: retrospective capture and evaluation. `docs/`: submission drafts, actual-video script and user study protocol.
+`app/`: UI and server routes. `lib/`: evidence retrieval, MCP, model, guardrails, cases and SQLite. `tests/`: failure and provenance checks. `scripts/`: retrospective capture and evaluation. `docs/`: deployment evidence, data integration, evaluation and demonstration documentation.
 
 ## Interfaces
 
@@ -71,21 +71,20 @@ npm run compare
 - Calendar covers scheduled NYSE equity sessions for 2026–2028; extraordinary closures and instrument-specific schedules remain unverified.
 - Retrospective captures do not prevent a model from knowing later outcomes. No backtest, return or investment-performance claim.
 - Prompt-injection resistance is constrained by a research-only architecture with no account tools; real model robustness still needs evaluation.
-- Ten real model pairs have been collected; see docs/EVALUATION.md for observed structural checks and their limits. Three-user study and independent accuracy review remain pending. The Chinese tutorial and logged-out public access checks were completed during the October 3 sprint.
+- Ten real model pairs have been collected; see docs/EVALUATION.md for observed structural checks and their limits. Real-user validation and independent accuracy review remain pending. The Chinese tutorial and logged-out public access checks were completed during the October 3 sprint.
 - Source publication is authorized under the MIT license. Credentials, session secrets, SQLite databases and private registration information are excluded. Competition submission is performed by the team owner.
 
-See docs/SUBMISSION.md for honest submission draft and docs/USER_STUDY.md for the validation protocol.
+Registration text and promotional drafts are maintained separately outside the public repository.
 
 ## Upgraded product behavior
 
 Live progress streams over NDJSON when requested, preserving evidence before inference. User horizon/risk preference shapes the prompt. Output includes concise decision brief, event/business/asset chain, bull/bear hypotheses, counter-evidence, falsifiable conditions and follow-up research. The server binds model-selected quotation IDs to actual acquired excerpts and rejects fabricated IDs. Provenance is checked; semantic support still needs review. Markdown/JSON include native and perpetual snapshots, evidence timestamps/hashes and tool traces.
 
-## Demo and competition materials
+## Demo and deployment evidence
 
-- Team: 杉研 Afterbell (Cedar)
 - Track: AI Trading Desk · 信息提炼与信号生成
 - Demo: https://afterbell.43.167.174.154.nip.io/
-- Materials and Chinese tutorial: https://afterbell.43.167.174.154.nip.io/submission/index.html
+- Technical evidence and Chinese tutorial: https://afterbell.43.167.174.154.nip.io/submission/index.html
 - Actual Tokyo research record: [Markdown](https://afterbell.43.167.174.154.nip.io/submission/tokyo-research.md) / [JSON](https://afterbell.43.167.174.154.nip.io/submission/tokyo-research.json)
 - Product introduction and video: https://x.com/Cedar_0x/status/2106448781239857187
 
